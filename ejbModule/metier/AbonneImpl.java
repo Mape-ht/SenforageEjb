@@ -9,7 +9,7 @@ import javax.persistence.PersistenceContext;
 
 import metier.entities.Abonne;
 
-@Stateless(name="AB")
+@Stateless
 public class AbonneImpl implements IAbonne{
 	@PersistenceContext(unitName="SenforageEjb")
 	private EntityManager em;

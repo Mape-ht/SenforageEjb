@@ -11,7 +11,7 @@ import javax.persistence.Query;
 
 import metier.entities.Village;
 
-@Stateless(name="VI")
+@Stateless
 public class VillageImpl implements IVillage{
 	@PersistenceContext(unitName="SenforageEjb")
 	private EntityManager em;

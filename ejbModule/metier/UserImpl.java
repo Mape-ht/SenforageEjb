@@ -10,7 +10,7 @@ import javax.persistence.Query;
 import metier.entities.User;
 
 
-@Stateless(name="US")
+@Stateless
 public class UserImpl implements IUser{
 
 	@PersistenceContext(unitName="SenforageEjb")
